@@ -167,7 +167,8 @@ body{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset
 #ltk table.dt tbody tr:nth-child(even){background:color-mix(in srgb,var(--bg) 60%,transparent)}
 #ltk table.dt tbody tr:hover{background:color-mix(in srgb,var(--ind) 8%,transparent)}
 @media (max-width:720px){
-#mainnav{padding:0 8px}#mainnav button[data-p]{flex:1;padding:12px 6px 9px;font-size:14px}
+#mainnav{padding:0 8px;flex-wrap:wrap}#mainnav button[data-p]{flex:1;padding:12px 6px 9px;font-size:14px}
+#mainnav .navr{order:2;flex:1 0 100%;margin:0;padding:6px 0 8px;border-top:1px solid var(--nbd)}#mainnav .navr button{flex:1 1 0;min-width:0;padding:8px 6px;font-size:13px}
 #lap input,#lap select,#lap textarea{font-size:16px}
 table.dt{min-width:0!important}
 table.dt thead{display:none}
